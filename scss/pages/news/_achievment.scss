@@ -1,0 +1,121 @@
+.achievment {
+    padding-bottom: 94px;
+}
+
+.achievment_img_block {
+    margin-bottom: 21px;
+}
+
+.achievment_left_first_block {
+    margin-bottom: 70px;
+}
+
+.achievment_img_block_mb {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.achievment_img_block_desktop {
+    display: none;
+}
+
+.john_smith_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 29px;
+}
+
+.john_smash {
+    padding: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fffcfc;
+    background-color: #2351f5;
+}
+
+.achievment_left_block_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 19px;
+}
+
+.achievment_left_block_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 208%;
+    color: #515151;
+}
+
+.sec {
+    padding-bottom: 58px;
+    border-bottom: 1px solid #dedede;
+}
+
+.achievment_right_btn {
+    padding: 6px 20px;
+    color: #fff;
+    background-color: #000;
+}
+
+.achievment_btn_block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 13px;
+}
+
+.achievment_right_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+
+.achievment_right_item {
+    display: grid;
+    grid-template-columns: 111px auto;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.item_disk{
+    display: none;
+}
+
+@media screen and (min-width:992px) {
+    .achievment_block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 72px;
+    }
+    .achievment_img_block_mb{
+        // text-align: start;
+        display: none;
+    }
+    .achievment_img_block_desktop{
+        display: block;
+    }
+    .achievment_right_item{
+        margin-bottom: 60px;
+        gap: 31px;
+    }
+    .item_disk{
+        display: flex;
+    }
+    .sec{
+        border: none;
+    }
+    .first{
+        padding-bottom: 58px;
+        border-bottom: 0.70px solid #a5a5a5;
+    }
+    .achievment_left_first_block {
+        margin-bottom: 60px;
+    }
+}
