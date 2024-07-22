@@ -1,0 +1,127 @@
+.footer {
+    background-color: #1b1b1b;
+    padding: 22px 54px 27px 54px;
+}
+
+.footer_mb_text {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 191%;
+    color: #fff;
+}
+
+.footer_block {
+    display: none;
+}
+
+.footer_logo_block {
+    margin-bottom: 20px;
+}
+
+.footer_logo_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+    width: 372px;
+}
+
+.footer_logo_tag {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_about_item_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+.footer_about_item_title {
+    margin-bottom: 14px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+.footer_about_item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 186%;
+    color: #fff;
+}
+
+.footer_contact_item_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer_contact_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.footer_contact_link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_media_list {
+    display: flex;
+    margin-bottom: auto;
+}
+
+.footer_contact_us_list {
+    width: 282px;
+}
+
+.footer_about_list {
+    width: 90px;
+}
+
+hr {
+    display: none;
+}
+
+@media screen and (min-width:1100px) {
+    .footer {
+        padding: 79px 0  20px 0;
+    }
+
+    .footer_block {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 53px;
+    }
+
+    .footer_media_list {
+        margin-top: 130px;
+    }
+
+
+    .footer_mb_text {
+        padding: 29px;
+    }
+
+    hr {
+        display: block;
+        background-color: #d2d2d2;
+    }
+}
