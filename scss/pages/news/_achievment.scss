@@ -84,38 +84,85 @@
     align-items: center;
     margin-bottom: 44px;
 }
-.item_disk{
+
+.item_disk {
     display: none;
 }
 
+
+
 @media screen and (min-width:992px) {
     .achievment_block {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
         gap: 72px;
     }
-    .achievment_img_block_mb{
-        // text-align: start;
+
+    .achievment_img_block_mb {
         display: none;
     }
-    .achievment_img_block_desktop{
+
+    .achievment_img_block_desktop {
         display: block;
+        margin-bottom: 21px;
     }
-    .achievment_right_item{
+
+    .achievment_right_item {
         margin-bottom: 60px;
         gap: 31px;
     }
-    .item_disk{
-        display: flex;
+
+    .item_disk {
+        display: grid;
     }
-    .sec{
+
+    .sec {
         border: none;
     }
-    .first{
-        padding-bottom: 58px;
+
+    .first {
+        padding-bottom: 90px;
         border-bottom: 0.70px solid #a5a5a5;
     }
+
     .achievment_left_first_block {
-        margin-bottom: 60px;
+        margin-bottom: 180px;
+        width: 587px;
+        &:nth-child(2){
+            margin-bottom: 0;
+        }
+    }
+
+    .john_smith_div {
+        margin-bottom: 21px;
+    }
+
+    .achievment_left_block_title {
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+
+    .achievment_left_block_text {
+        font-size: 17px;
+        line-height: 208%;
+    }
+
+    .achievment_ds_pic {
+        width: 195px;
+        height: 183px;
+    }
+
+    .achievment_right_item {
+        grid-template-columns: 195px 1fr;
+        gap: 31px;
+    }
+
+    .achievment_right_title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #000;
+    }
+    .footer_top{
+        margin-bottom: 148px;
     }
 }
