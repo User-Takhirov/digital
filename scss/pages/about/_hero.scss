@@ -1,0 +1,68 @@
+.hero__open {
+  padding: 61px 31px;
+  background-color: rgb(239, 195, 140);
+}
+.hero__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 180%;
+  color: #222;
+}
+.hero__section {
+  margin-top: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 209%;
+  color: #525252;
+}
+.hero__nome {
+  display: flex;
+  gap: 30px;
+  
+}
+.hero__text {
+  color: #848484;
+  color: #e47500;
+}
+.hero__btn {
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 40px;
+  width: 176px;
+  height: 47px;
+  background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+}
+.hero__butten {
+  margin-top: 37px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero__blosk {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero__name {
+    flex-grow: 1;
+    width: 50%;
+  }
+  .hero__open{
+    flex-grow: 1;
+    width: 50%;
+   
+  }
+  .hero__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero__section{
+    
+  }
+
+}
