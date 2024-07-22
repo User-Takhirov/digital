@@ -1,0 +1,69 @@
+.project_one{
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.project_one_title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180%;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.project_one_txt{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+}
+
+.green_list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.green_item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.project_two{
+    margin-bottom: 70px;
+}
+
+.project_two_title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 180%;
+    color: #222;
+    margin-bottom: 34px;
+}
+
+.project_two_des{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #515151;
+    margin-bottom: 22px;
+}
+
+.project_two_des_beta{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #515151;
+    margin-bottom: 30px;
+}
+
+.project_two_button{
+    background-color: #DC7000;
+    color: #fff;
+    padding: 13px 43px;
+}
