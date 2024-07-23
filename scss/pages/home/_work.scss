@@ -1,0 +1,105 @@
+.work {
+    padding-top: 48px;
+    padding-bottom: 95px;
+}
+
+.work__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #222;
+    padding: 0 18px;
+    margin-bottom: 72px;
+}
+
+.work__des {
+    padding: 0 10px;
+}
+
+.work__sub title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187%;
+    color: #222;
+    margin-bottom: 32px;
+}
+
+.work__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #525252;
+    max-width: 545px;
+    margin-bottom: 46px;
+}
+
+.work__info_block {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .work__title {
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 52px;
+        max-width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .work__info_block {
+        display: block;
+    }
+
+    .work__des {
+        padding: 0;
+        width: 700px;
+        position: relative;
+    }
+
+    // .work__des::after {
+    //     content: "";
+    //     background-image: url('../img/work_icon.svg');
+    //     background-repeat: no-repeat;
+    //     width: 196px;
+    //     height: 154px;
+    //     display: inline-block;
+    //     position: absolute;
+    //     transform: translateX(50%);
+    //     transform: translateY(-50%);
+    //     right: -100px;
+    // }
+}
+
+@media screen and (min-width:1050px) {
+    .work {
+        padding-top: 82px;
+        padding-bottom: 165px;
+    }
+
+    .work__title {
+        font-size: 25px;
+        margin-bottom: 49px;
+        max-width: 826px;
+    }
+
+    .work__des {
+        width: 934px;
+        position: relative;
+    }
+
+    .work__des::after {
+        content: "";
+        background-image: url('../img/work_icon.svg');
+        background-repeat: no-repeat;
+        width: 196px;
+        height: 154px;
+        display: inline-block;
+        position: absolute;
+        transform: translateX(50%);
+        transform: translateY(-50%);
+        right: -80px;
+        z-index: -1;
+    }
+}
