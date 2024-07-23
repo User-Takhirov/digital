@@ -1,0 +1,137 @@
+.contact_input {
+    padding-bottom: 81px;
+}
+
+.contact_input_block {
+    background-image: url(../../img/input_bg.jpg);
+    background-repeat: no-repeat;
+    padding: 59px 0 61px 0;
+    background-size: cover;
+}
+
+.contact_input_title {
+    text-align: center;
+}
+
+.contact_input_title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 189%;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.contact_input_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 189%;
+    color: #777;
+    padding-bottom: 79px;
+}
+
+.contact_form_input {
+    width: 153px;
+    height: 48px;
+    display: block;
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+}
+
+.contact_form_input_email {
+    display: block;
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 319px;
+    height: 48px;
+}
+
+.contact_form_input_messagge {
+    display: block;
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 319px;
+    height: 200px;
+}
+
+.input_flex {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+.contact_form_input_block_email {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+.contact_form_input_block_message {
+    display: grid;
+    justify-content: center;
+}
+
+.contact_input_btn {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204%;
+    color: #fff;
+    background: #dc7000;
+    border-radius: 10px;
+    padding: 10px 47px;
+    border: none;
+}
+
+.contact_input_btn_block {
+    text-align: right;
+    margin-top: 51px;
+}
+
+@media screen and (min-width:992px) {
+    .contact_input_block {
+        background-image: url(../../img/contact_desktop.bg.svg);
+    }
+
+    .contact_input_title {
+        font-size: 30px;
+        line-height: 189%;
+    }
+
+    .contact_form_input {
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 322px;
+        height: 56px;
+    }
+
+    .input_flex {
+        gap: 27px;
+        margin-bottom: 20px;
+    }
+
+    .contact_form_input_block_email {
+        margin-bottom: 20px;
+    }
+
+    .contact_form_input_email {
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 671px;
+        height: 56px;
+    }
+
+    .contact_form_input_messagge {
+        border: 0.60px solid #cecece;
+        border-radius: 9px;
+        width: 671px;
+        height: 232px;
+    }
+
+    .contact_input_text {
+        font-size: 13px;
+        line-height: 189%;
+    }
+}
