@@ -1,0 +1,112 @@
+.woork__open {
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+  width: 300px;
+  height: 314px;
+  box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.woork__block {
+  padding-top: 60px;
+}
+.woork__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #222;
+  margin-bottom: 40px;
+}
+.woork__list {
+  padding: 7px 11px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187%;
+  color: #0cbe64;
+  border-radius: 8px;
+  width: 119px;
+  height: 36px;
+  background: rgba(12, 190, 100, 0.15);
+}
+.woork__title__Open {
+  margin-top: 18px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187%;
+  color: #000;
+}
+.woork__tiple {
+  margin-top: 14px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 187%;
+  color: #525252;
+  margin-bottom: 40px;
+}
+.woork__spm {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 187%;
+  color: #dc7000;
+  margin-left: 145px;
+}
+
+.woork__open__sao {
+  border-radius: 20px;
+  width: 299px;
+  height: 300px;
+  background: #f5f5f5;
+  padding: 55px 33px;
+}
+.woork__list__sap {
+    padding: 6px 11px;
+  background: rgba(220, 66, 0, 0.11);
+  border-radius: 8px;
+  width: 119px;
+  height: 33px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187%;
+  color: #dc1a00;
+}
+.woork__open__sap{
+    padding: 55px 37px;
+    margin-top: 25px;
+    border-radius: 20px;
+width: 299px;
+height: 300px;
+background: #f5f5f5;
+}
+.woork__of{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+padding: 6px 11px;
+line-height: 187%;
+color: #2fab73;
+border-radius: 8px;
+width: 119px;
+height: 33px;
+background: #dbf5e8;
+}
+@media screen and (min-width: 768px) {
+    .woork__name__of{
+        display: flex;
+        justify-content: space-between;
+    }
+    .woork__block{
+        padding-left: 30px;
+    }
+    .woork__open__sap{
+        margin-top: 0px;
+    }
+   
+    
+    
+}

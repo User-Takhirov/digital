@@ -1,0 +1,91 @@
+.correrc__open {
+  border-radius: 15px;
+  margin-top: 41px;
+  background-color: black;
+  padding: 30px 21px;
+}
+.correrc__block {
+  margin: 20px 25px;
+}
+.correrc__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187%;
+  color: #222;
+}
+.correrc__sap {
+  margin-top: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 187%;
+  color: #525252;
+}
+.correrc__sap__title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+.correrc__text {
+  margin-top: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+.correrc__input {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+}
+.latest {
+  border: none;
+  padding: 0px 20px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 275px;
+  height: 46px;
+  background: #fff;
+  color: #898989;
+}
+.correrc__btn {
+  border: none;
+  margin-right: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 8px;
+  width: 104px;
+  height: 35px;
+  background: #dc7000;
+}
+.correrc__btn {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .correrc__open {
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .correrc__text {
+    max-width: 530px;
+  }
+  .latest {
+    border-radius: 8px;
+    width: 385px;
+    height: 48px;
+  }
+  .correrc__btn {
+    border-radius: 8px;
+    width: 104px;
+    height: 37px;
+  }
+}
